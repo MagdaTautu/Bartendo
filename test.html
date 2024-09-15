@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        #gallery-item{
+            display: grid;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            max-height: 600px;
+            background-color: rebeccapurple;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,50%);
+        }
+
+        #top-left{
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            padding: 40px;
+        }
+
+        #top-right{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            font-size: 180px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #top-right p{
+            margin: 0%;
+        }
+
+        #bottom-left{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #bottom-left p{
+            color:#fff;
+            font-size: 40px;
+        }
+
+        #bottom-right{
+            position: relative;
+        }
+        #bottom-right img{
+            position: absolute;
+            top: -160px;
+            left: 0;
+            width: 400px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="gallery-item">
+        <div id="top-left">
+            <p>WE ARE NEAR THE CITY CENTER OF WASHINGTON</p>
+        </div>
+        <div id="top-right">
+            <p>BARTENDO</p>
+        </div>
+        <div id="bottom-left">
+            <p>From a cultural standpoint,
+               coffeehouses largely serve 
+               as centers of social interaction: 
+               the coffeehouse provides patrons 
+               with a place to congregate, talk, 
+               read, write, entertain one another, 
+               or pass the time, whether individually 
+               or in small groups.
+               From a cultural standpoint,
+               coffeehouses largely serve 
+               as centers of social interaction: 
+               the coffeehouse provides patrons 
+               with a place to congregate, talk, 
+               read, write, entertain one another, 
+               or pass the time, whether individually 
+               or in small groups.
+            </p>
+        </div>
+        <div id="bottom-right">
+            <img src="/images/gallery.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

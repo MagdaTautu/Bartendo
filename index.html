@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar flex">
+            <a href="#" class="logo flex">
+                <img src="./images/logo.png" alt="Bartendo Logo"/>
+                <p>Bartendo</p>
+            </a>
+            <div class="header-links">
+                <a href="#header" class="menu-link">HOME</a>
+                <a href="#about" class="menu-link">ABOUT</a>
+                <a href="#menu" class="menu-link">MENU</a>
+                <a href="#gallery" class="menu-link">GALLERY</a>
+                <a href="#" id="contact" class="menu-link">CONTACT US
+                    <ul id="number">
+                        <li>+1 987-602-9223</li>
+                        <li>support@bartendo.com</li>
+                    </ul>
+                </a>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="fade-text">
+                <p>BARTENDO</p>
+                <div class="banner-container">
+                    <div class="info-banner">
+                        <h1>COFFEE BUILD YOUR MIND</h1>
+                        <div class="separator">
+                            <div class="asterisk left">*</div>
+                                <p>The best beverages in town</p>
+                            <div class="asterisk right">*</div>
+                        </div>
+                        <div class="separator">
+                            <div class="asterisk left">*</div>
+                                <p>Come and convince yourself</p>
+                            <div class="asterisk right">*</div>
+                        </div>
+                        <div class="buttons">
+                            <a href="#menu" class="button">MENU</a>
+                            <a href="#gallery" class="button">GALLERY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cup"></div>
+            <div class="flower"></div>
+        </div>
+        <div class="border-bottom"></div>
+    </header>
+    <section id="about" class="flex">
+        <div class="about-top flex j-c ai-c">
+            <h2>Welcome</h2>
+            <h1>About us</h1>
+            <p class="sub-title">Cafe & restaurant</p>
+            <span class="line"> </span>
+            <p class="about-text">
+                We are here for more than 10 years serving tasty food and delicios beverages!
+                Generaly, a coffeehouse or a restaurant serve groups of people but Bartendo is 
+                more than that. It is a nice and quiet place where you can either start your 
+                day with your favorite coffee or finish you schedule by tasting a traditional meal. 
+            </p>
+        </div>
+        <div class="about-bottom flex ai-c">
+            <div class="overlay"></div>
+            <h1>Did you know?</h1>
+            <p class="sub-title">
+                About our restaurant:
+            </p>
+            <div class="icons flex ai-c j-sb">
+                <a href="#menu">
+                    <img src="./images/cup.png" alt="Menu">
+                    <p>Descover our menu</p>
+                </a>
+                <a href="#menu">
+                    <img src="./images/phone.png" alt="Contact">
+                    <p>Reservations</p>
+                </a>
+                <a href="#about">
+                    <img src="./images/clock.png" alt="About">
+                    <p>Schedule</p>
+                    <p style="margin-top: -5px; width: 100%;">8:00 - 22:00</p>
+                </a>
+                <a href="#gallery">
+                    <img src="./images/location.png" alt="Gallery">
+                    <p style="width: 70%;">Near city center</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="flex">
+        <div class="menu-top flex ai-c j-c">
+            <h1>Our menu</h1>
+            <p class="sub-title">Check our specials:</p>
+            <div class="menu-buttons flex j-c">
+                <button class="btn-menu" data-toggle="coffee-div">Coffee</button>
+                <button class="btn-menu" data-toggle="tea-div">Tea</button>
+                <button class="btn-menu" data-toggle="lunch-div">Lunch</button>
+                <button class="btn-menu" data-toggle="dessert-div">Dessert</button>
+            </div>
+        </div>
+
+        <div class="menu-bottom">
+            <div class="menu-page coffee show" id="coffee-div">
+                <ul>
+                    <div class="column-1">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/au lait.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Cafe au Lait</p>
+                                    <p class="description">Coffee, hot milk
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/cuban.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Cuban Shot</p>
+                                    <p class="description">Espresso, white or brown sugar
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">2.00$</p>
+                            </div>
+                        </li>   
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/americano.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Americano</p>
+                                    <p class="description">Espresso with a lot of hot water
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">2.10$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/black.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Black Coffee</p>
+                                    <p class="description">Perfect for a breezy morning
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">2.50$</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="column-2">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/single.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Single Cup</p>
+                                    <p class="description">One cup of simple coffee
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.00$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/latte.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Caffee Latte</p>
+                                    <p class="description">Coffe, cold milk
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/coffee of the day.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Coffee Of The Day</p>
+                                    <p class="description">Get a cup of black coffee today for 50% discount
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.75$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/cappuccino.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Cappuccino</p>
+                                    <p class="description">Coffee, milk, brown or white sugar
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">1.95$</p>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="menu-page tea" id="tea-div" >
+                <ul>
+                    <div class="column-1">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/au lait.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Tea au Lait</p>
+                                    <p class="description">Tea with milk
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/green.png"alt="">
+                                <div class="item-description">
+                                    <p class="title">Green Tea</p>
+                                    <p class="description">Made from a camelia sinensis' leaves
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>   
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/americano.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Black Tea</p>
+                                    <p class="description">Drink one and see the miracle
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">2.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/coffee of the day.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Tea Of The Day</p>
+                                    <p class="description">Get a cup of Green Tea for a 50% discount
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">0.75$</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="column-2">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/icetea.png" style="transform: rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Single IceTea Cup</p>
+                                    <p class="description">A cup of delicious fresh ice tea
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/mint.png" style="transform: rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Mint and Lemon Cup</p>
+                                    <p class="description">We include mint and a slice of lemon. You choose the tea
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">2$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/forestfruit.png" style="transform: rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Forest Fruits Tea</p>
+                                    <p class="description">A cup of delicious fresh forest fruits tea
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">1.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/herbal.png" style="transform: rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Herbal</p>
+                                    <p class="description">A cup of healthy herbal tea
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">2$</p>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="menu-page lunch" id="lunch-div" >
+                <ul>
+                    <div class="column-1">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/fegg.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Breakfast menu</p>
+                                    <p class="description">Two fried eggs with three slices of bacon
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">4.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/fries.png" style="transform:rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Mozza fries</p>
+                                    <p class="description">French fries with mozzarella and a spoon of ketchup
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">4.50$</p>
+                            </div>
+                        </li>   
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/pasta.png" style="transform:rotate(0);" alt="">
+                                <div class="item-description">
+                                    <p class="title">Fasta-ish</p>
+                                    <p class="description">Pasta with salmon which was caught today at 5AM
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">6.25$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/chicken.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Lunch for one</p>
+                                    <p class="description">Chicken in oven with salad and a bunch of potatoes
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">5.75$</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="column-2">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/pizza.png" alt="">
+                                <div class="item-description">
+                                    <p class="title">Homemade Pizza</p>
+                                    <p class="description">We've made the best pizza in the whole world, so you only got to complain about the fact that there's no slices left for you.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">8.75$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/broth.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Traditional Soup</p>
+                                    <p class="description">A whole bowl of homemade soup to satisfy your taste buds. Choose between chicken, beef and pork
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">3.75$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/sushi.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Sushi</p>
+                                    <p class="description">Our masterchef 查理 and his buddy 本 have made the best sushi you'll ever eat
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">5.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/burger.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Big Belly Burger</p>
+                                    <p class="description">Our best burger for the best of you!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">7.45$</p>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="menu-page dessert" id="dessert-div">
+                <ul>
+                    <div class="column-1">
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/pancakes.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">It's syrup up there!</p>
+                                    <p class="description">Pancakes with strawberry/cranberries syrup
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">4.50$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/cake.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Cheesecake</p>
+                                    <p class="description">Will you order me? Or is it too cheesy?
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="item-price">
+                                <p class="price">3.75$</p>
+                            </div>
+                        </li>   
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/donut.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Sweet Donuts</p>
+                                    <p class="description">Four sweet donuts just like you!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">5.25$</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-img">
+                                <img src="./images/icecream.png" style="transform:rotate(0)" alt="">
+                                <div class="item-description">
+                                    <p class="title">Ice Cream</p>
+                                    <p class="description">Price per cup. Ask for all the available flavors
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item-price">
+                                <p class="price">1$</p>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="background">
+        </div>
+        <div class="border-bottom"></div>
+
+    </section>
+    <section id="gallery" style="height: 100vh;">
+        <div class="gallery-item" id="left"></div>
+        <div class="gallery-item" id="top">
+           
+            <div id="top-left">
+                <p>WE ARE NEAR THE CITY CENTER OF WASHINGTON</p>
+            </div>
+            <div id="top-right">
+                <p>BARTENDO</p>
+            </div>
+            <div id="bottom-left">
+                <p>From a cultural standpoint,
+                   coffeehouses largely serve 
+                   as centers of social interaction: 
+                   the coffeehouse provides patrons 
+                   with a place to congregate, talk, 
+                   read, write, entertain one another, 
+                   or pass the time, whether individually 
+                   or in small groups.
+                </p>
+            </div>
+            <div id="bottom-right">
+                <img src="/images/gallery.png" alt="">
+            </div>
+        </div>
+        <div class="gallery-item" id="bottom-1"></div>
+        <div class="gallery-item" id="bottom-2"></div>
+        <div class="gallery-item" id="bottom-3"></div>
+        
+    </section>
+     <!-- <div class="fade-text">
+                <div class="image">
+                    <p class="title" style="color: rgba(255,255,255,1); opacity: 1;">BARTENDO</p>
+                    <img src="./images/gallery.png"/>
+                </div>
+            </div>
+            <div class="text">
+                <h1>WE ARE NEAR THE CITY CENTER OF WASHINGTON</h1>
+                <p>From a cultural standpoint, coffeehouses largely serve as centers 
+                    of social interaction: the coffeehouse provides patrons with a place 
+                    to congregate, talk, read, write, entertain one another, or pass the 
+                    time, whether individually or in small groups.
+                </p>
+            </div> -->
+</body>
+<script src="main.js"></script>
+<script src="1351.js"></script>
+</html>
